@@ -1,0 +1,44 @@
+functional buttons:
+1- translation button in: 
+-> index.html line 55
+-> WhoWeAre.html line 113
+-> OurServices.html line 67
+-> Connect.html line 66
+
+2- send message button in: 
+-> index.html line 260
+-> Connect.html line 123 
+
+
+//___________________________________________________
+
+
+
+switch pages buttons:
+1- in the navbar in each page
+-> index.html line 67-70 + 77
+-> WhoWeAre.html line 125-128 + 135 
+-> OurServices.html line 79-82 + 89
+->Connect.html line 78-81 + 88
+
+2- the footer in each page
+-> index.html line 284 + 290-294 
+-> WhoWeAre.html line 290 + 297-300
+->OurServices.html line 282 + 289-292
+->Connect.html line 148 + 155-158
+
+3- in index.html line 90 + 140 
+4- in OurServices.html line 146 + 163 + 180 + 206 + 222 + 240 + 257 
+
+
+//___________________________________________________
+
+
+images place: 
+-> in index.html 75 + 97 + 98 + 154 + 167 + 177 + 187 + 197 + 207 + 217 + 283
+
+-> in WhoWeAre.html 135 + 147-150 + 163 + 177 + 189 + 210 + 216 + 222 + 228 + 234 + 242 + 248 + 255 + 260 + 266 + 291
+
+-> in OurServices.html 89 + 106 + 136 + 153 + 170 + 196 + 213 + 230 + 247 + 283 
+
+-> in Connect.html 88 + 151
