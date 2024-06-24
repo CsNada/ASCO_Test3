@@ -6,7 +6,8 @@
 
     <!--the arabic font-->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
-	
+
+    <!--for tailwindcss styles-->
 	<script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -64,12 +65,13 @@
             <li class="nav_item flex"><a href="Connect.html" class="nav_link cursor-pointer px-1 flex">تواصل معنا</a></li>
             <li class="nav_item flex"><a href="OurServices.html" class="nav_link cursor-pointer px-1 flex">خدماتنا</a></li>
             <li class="nav_item flex"><a href="WhoWeAre.html" class="nav_link cursor-pointer px-1 flex">من نحن</a></li>
-            <li class="nav_item flex"><a href="index.html" class="nav_link cursor-pointer px-1 flex">الصفحة الرئيسية</a></li>
+            <li class="nav_item flex"><a href="index.html" class="nav_link cursor-pointer px-1 flex border-b-2 border-[#4d869c]">الصفحة الرئيسية</a></li>
         </ul>
     </div>
 
     <!--the company logo-->
     <div class="mx-3">
+        <!--the button go to (index.html) -->
         <a href="#"><img src="public/images/logo/logo-ver1.png" class="w-28"></a>
     </div>
 </div>
@@ -80,9 +82,9 @@
 <!--the hero-->
 <div class="flex flex-col p-16 md:mt-12 mt-16 mb-80">
     <h1 class="text-4xl font-bold mb-6 text-[#14274e]">اكتشفوا الحلول المتكاملة لإدارة  أعمالكم مع ASCO</h1>
-    <p class="w-[500px]">نجمع بين الخبرة العميقة في إدارة الأعمال والتخطيط المالي الدقيق لنقدم لكم الحلول التي تعزز نمو شركتكم واستدامتها. دعونا نساعدكم في الإدارة الفعالة للموارد والاستثمارات من خلال خدماتنا المتميزة.</p>
+    <p class="w-[500px] sm:text-lg z-30">نجمع بين الخبرة العميقة في إدارة الأعمال والتخطيط المالي الدقيق لنقدم لكم الحلول التي تعزز نمو شركتكم واستدامتها. دعونا نساعدكم في الإدارة الفعالة للموارد والاستثمارات من خلال خدماتنا المتميزة.</p>
 
-    <!--the button go to (WhoWeAre page) -->
+    <!--the button go to (WhoWeAre.html) -->
     <a href="WhoWeAre.html" class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 mt-6 hover:bg-[#457486FF] transition text-white">
         <span class="text-white">لمعرفة المزيد</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 pt-1 text-base-100">
@@ -107,7 +109,7 @@
             <div class="pointer-events-none">
                 <div class="">
                     <h2 class="mb-4 font-bold text-xl ">الاستشارات و الخدمات المالية</h2>
-                    <div class="w-72 text-sm flex flex-col gap-5">
+                    <div class="w-72 text-sm sm:text-md flex flex-col gap-5">
                         <p>- بناء الاستراتيجيات:مساعدة العملاء في تطوير استراتيجيات مالية شاملة لتحقيق أهدافهم الطويلة الأجل.</p>
                         <p>- خطة العمل: إعداد خطط عمل مفصلة تساعد الشركات في تحقيق أهدافها التشغيلية والمالية.</p>
                         <p>- دراسة الجدوى: إجراء دراسات جدوى اقتصادية لتقييم المشاريع والفرص الاستثمارية.</p>
@@ -121,7 +123,7 @@
             <div class="pointer-events-none">
                 <div class="">
                     <h2 class="card-title font-bold text-xl mb-4">الاستشارات والخدمات الإدارية</h2>
-                    <div class="w-72 text-sm flex flex-col gap-4">
+                    <div class="w-72 text-sm sm:text-md flex flex-col gap-4">
                         <p>- الهيكل الإداري: تصميم وتطوير هياكل إدارية فعالة تتناسب مع طبيعة وأهداف المنشأة.</p>
                         <p>- مصفوفة الصلاحيات:إعداد مصفوفات الصلاحيات لتحديد الأدوار والمسؤوليات داخل المنشأة.</p>
                         <p>- تقييم الأداء: تطوير وتنفيذ أنظمة تقييم الأداء لقياس كفاءة وإنتاجية الموظفين.</p>
@@ -132,7 +134,7 @@
         </div>
     </div>
 
-    <!--the button go to (OurServices page) -->
+    <!--the button go to (OurServices.html) -->
     <a href="OurServices.html" class="w-40 rounded-full flex justify-center p-2 mt-14 bg-[#4d869c] hover:bg-[#457486FF] text-base-100 transition text-white">
         <span>لمعرفة المزيد</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 pt-1">
@@ -147,7 +149,7 @@
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-center col-span-2">
                 <h1 class="text-5xl font-bold text-[#14274e]">رؤيتنا</h1>
-                <p class="py-6">نسعى لأن نكون الشركة الرائدة والمفضلة في مجال الاستشارات المالية لغير الأوراق المالية والاستشارات الإدارية، من خلال تقديم حلول مبتكرة وفعالة تدعم عملاءنا في تحقيق أهدافهم الاستراتيجية وتحقيق النجاح المستدام.</p>
+                <p class="py-6 sm:text-xl">نسعى لأن نكون الشركة الرائدة والمفضلة في مجال الاستشارات المالية لغير الأوراق المالية والاستشارات الإدارية، من خلال تقديم حلول مبتكرة وفعالة تدعم عملاءنا في تحقيق أهدافهم الاستراتيجية وتحقيق النجاح المستدام.</p>
             </div>
             <img src="public/images/home/3.gif" class="w-[430px] rounded-lg"/>
         </div>
@@ -160,12 +162,12 @@
     <p class="mb-6">في شركتنا، نعمل جاهدين لتحقيق أهدافنا بكل تفانٍ وإخلاص  التي تشمل:</p>
 
     <!--the cards-->
-    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
+    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-10 sm:text-md">
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img1.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="mb-3 text-sm font-bold">1.تحقيق التميز في تقديم الخدمات:</h2>
-                <div class="w-52 lg:w-80 md:w-72 text-xs flex flex-col gap-2">
+                <h2 class="mb-3 lg:text-sm text-lg font-bold">1.تحقيق التميز في تقديم الخدمات:</h2>
+                <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
                     <p>- تقديم استشارات مالية وإدارية عالية الجودة تتجاوز توقعات العملاء.</p>
                     <p>- الالتزام بالمعايير المهنية وأفضل الممارسات في جميع الخدمات المقدمة.</p>
                 </div>
@@ -174,8 +176,8 @@
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img2.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 text-sm">2.دعم العملاء في تحقيق أهدافهم:</h2>
-                <div class="w-52 lg:w-80 md:w-72  text-xs flex flex-col gap-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">2.دعم العملاء في تحقيق أهدافهم:</h2>
+                <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
                     <p>- مساعدة العملاء في تطوير وتنفيذ استراتيجيات مالية وإدارية فعالة.</p>
                     <p>- تقديم توصيات مخصصة تلبي احتياجات العملاء وتساعدهم في تحقيق أهدافهم التشغيلية والمالية.</p>
                 </div>
@@ -184,8 +186,8 @@
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img3.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 text-sm">3.تطوير فريق عمل متميز:</h2>
-                <div class="w-52 lg:w-80 md:w-72  text-xs flex flex-col gap-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">3.تطوير فريق عمل متميز:</h2>
+                <div class="w-52 lg:w-80 md:w-72  lg:text-xs text-md flex flex-col gap-2">
                     <p>- مساعدة العملاء في تطوير وتنفيذ استراتيجيات مالية وإدارية فعالة.</p>
                     <p>- تقديم توصيات مخصصة تلبي احتياجات العملاء وتساعدهم في تحقيق أهدافهم التشغيلية والمالية.</p>
                 </div>
@@ -194,8 +196,8 @@
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img4.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 text-sm">4.تعزيز الابتكار والتحسين المستمر:</h2>
-                <div class="w-52 lg:w-80 md:w-72 text-xs flex flex-col gap-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">4.تعزيز الابتكار والتحسين المستمر:</h2>
+                <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
                     <p>- تشجيع الابتكار في تقديم الحلول والخدمات للعملاء.</p>
                     <p>- تبني منهجية التحسين المستمر لضمان تقديم أفضل الحلول والخدمات بشكل دائم.</p>
                 </div>
@@ -204,8 +206,8 @@
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img5.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 text-sm">5.بناء علاقات طويلة الأمد مع العملاء:</h2>
-                <div class="w-52 lg:w-80 md:w-72 text-xs flex flex-col gap-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">5.بناء علاقات طويلة الأمد مع العملاء:</h2>
+                <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
                     <p>- التركيز على بناء علاقات متينة وطويلة الأمد مع العملاء قائمة على الثقة والاحترام المتبادل.</p>
                     <p>- توفير دعم مستمر للعملاء لضمان تحقيق النجاح المستدام.</p>
                 </div>
@@ -214,8 +216,8 @@
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img6.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 text-sm">6.الاستدامة والمسؤولية الاجتماعية:</h2>
-                <div class="w-52 lg:w-80 md:w-72 text-xs flex flex-col gap-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">6.الاستدامة والمسؤولية الاجتماعية:</h2>
+                <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
                     <p>- الالتزام بمبادئ الاستدامة والمسؤولية الاجتماعية في جميع جوانب العمل.</p>
                     <p>- المساهمة في تطوير المجتمع ودعم المبادرات التي تساهم في تحقيق التنمية المستدامة.</p>
                 </div>
@@ -226,7 +228,7 @@
 
 <!--connect with us form-->
 <div class="py-20 mb-10 flex flex-col items-center">
-    <div class="w-[700px] md:w-[500px] lg:w-[500px]">
+    <div class="md:w-[500px] lg:w-[500px]">
         <h1 class="text-4xl font-bold mb-4 text-[#14274e]">تواصل معنا</h1>
         <p class="text-gray-500">نحن هنا لمساعدتك! إذا كان لديك أي استفسار أو تحتاج إلى مساعدة، يرجى ملء النموذج أدناه وسنتواصل معك في أقرب وقت </p>
 
@@ -251,6 +253,8 @@
                 <label for="message">كيف يمكننا مساعدتك؟</label>
                 <textarea name="message" id="message" rows="4" cols="50" type="text" class="border border-black rounded-md p-0.5 mt-1"></textarea>
             </div>
+
+            <!--send the message button-->
             <button type="submit" class="w-full bg-[#4d869c] rounded-lg p-2 mt-6 hover:bg-[#457486] text-white transition">
                 <span>إرسال</span>
             </button>
@@ -274,6 +278,7 @@
     <div class="p-4 gap-7 flex justify-between lg:px-20 py-8">
 
         <!--the logo-->
+        <!--the button go to (index.html)-->
         <a href="#" class="px-5">
             <img src="public/images/logo/logo-ver2.png" class="w-28">
         </a>
