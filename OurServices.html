@@ -52,7 +52,6 @@
 </head>
 <body dir="rtl" class=" text-[#404041]" style="font-family:Tajawal">
 
-
 <!--the navbar-->
 <div class="sticky top-0 z-50 bg-white">
     <div class="h-full w-full">
@@ -93,7 +92,6 @@
     </div>
 </div>
 
-
 <!--first page contant-->
 <div class="flex flex-col items-center text-white">
     <div>
@@ -102,7 +100,9 @@
 
     <!--the two cards-->
     <div dir="rtl" class="grid grid-cols-2 md:gap-20 lg:gap-20">
-        <div class="flex flex-col items-center mb-52">
+
+        <!--card 1-->
+        <div class="flex flex-col items-center">
             <img src="public/images/services/1.png" class="h-40">
             <h1 class="my-4 text-2xl font-bold text-[#14274e]">الاستشارات والخدمات المالية</h1>
             <a href="#service1" class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
@@ -112,7 +112,9 @@
                 </svg>
             </a>
         </div>
-        <div class="flex flex-col items-center mb-52">
+
+        <!--card 2-->
+        <div class="flex flex-col items-center">
             <img src="public/images/services/2.png" class="h-40">
             <h1 class="my-4 text-2xl font-bold text-[#14274e]">الاستشارات والخدمات الإدارية</h1>
             <a href="#service2" class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
@@ -122,143 +124,237 @@
                 </svg>
             </a>
         </div>
+
+    </div>
+
+    <!--card 3-->
+    <div class="flex flex-col items-center mb-52 mt-10">
+        <img src="public/images/services/4.png" class="h-40">
+        <h1 class="my-4 text-2xl font-bold text-[#14274e]">الأمن السيبراني</h1>
+        <a href="#service3" class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
+            <span class="text-base-100">عن الخدمات</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 pt-1 text-base-100">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+            </svg>
+        </a>
     </div>
 </div>
 
 <!--service 1-->
 <div id="service1" dir="rtl" class="bg-[#14274e] text-white py-40 rounded-br-custom rounded-bl-custom">
-    <h1 class="flex justify-center text-3xl pb-28 font-bold">الاستشارات والخدمات المالية</h1>
+    <h1 class="flex justify-center text-3xl pb-5 font-bold">الاستشارات والخدمات المالية</h1>
+    <p class="flex justify-center text-lg">في ASCO، نقدم خدمات محاسبية شاملة تتضمن مسك الدفاتر بدقة عالية لشركتكم،</p>
+    <P class="flex justify-center text-lg pb-14"> مع ضمان أعلى مستويات الجودة بأسعار تنافسية.</P>
+
+    <h1 class="flex justify-center text-3xl pb-5 font-bold">تشمل خدماتنا:</h1>
 
     <!--the cards-->
-    <div class="mr-20 font-bold grid grid-cols-1 gap-20">
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">بناء الاستراتيجيات:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p> وصف الخدمة: مساعدة العملاء في تطوير استراتيجيات مالية شاملة تهدف إلى تحقيق أهدافهم طويلة الأجل.</p>
-                    <p>الفوائد: تحقيق استدامة مالية طويلة الأجل، تحسين كفاءة استخدام الموارد، وزيادة القدرة التنافسية في السوق.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-white">لطلب الخدمة</span>
-                </a>
-            </div>
+    <div class="mr-24 lg:mr-64 font-bold">
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إعداد البيانات المالية</h1>
         </div>
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">خطة العمل:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة:إعداد خطط عمل مفصلة تساعد الشركات في تحقيق أهدافها التشغيلية والمالية.</p>
-                    <p>الفوائد:وضوح الرؤية والاتجاه للشركة، تحسين إدارة الوقت والموارد، وزيادة فرص النجاح في تحقيق الأهداف المحددة.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-base-100">لطلب الخدمة</span>
-                </a>
-            </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التحول إلى المعايير الدولية لإعداد التقارير المالية (IFRS) </h1>
         </div>
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">دراسة الجدوى:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة: إجراء دراسات جدوى اقتصادية لتقييم المشاريع والفرص الاستثمارية.</p>
-                    <p> الفوائد: تقليل المخاطر، اتخاذ قرارات استثمارية مبنية على أسس علمية، وزيادة فرص نجاح المشاريع الجديدة.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-base-100">لطلب الخدمة</span>
-                </a>
-            </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>المعايير الدولية لإعداد التقارير المالية للشركات الصغيرة والمتوسطة (IFRS for SMEs)</h1>
         </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التدقيق الداخلي المصرح</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تدقيق الأنظمة والامتثال</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الاستشارات المتعلقة بالمخاطر</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة الرواتب</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تقييمات الاكتواري</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>قوائم التحقق من الإفصاحات</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة التدقيق الخارجي</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>خدمات إدخال البيانات</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الدعم لنظامي Xerox/QuickBooks</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>بيانات التسوية المصرفية</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تقديم الآراء وفقًا لمعايير IFRS وGAAP بشأن البيانات المالية</h1>
+        </div>
+
+        <!--the button go to (Connect.html) -->
+        <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect.html'>
+            <span class="text-white">لطلب خدمة</span>
+        </a>
+
     </div>
 </div>
 
 <!--service 2-->
-<div id="service2" dir="rtl" class="py-40  flex flex-col items-center text-[#14274e]">
-    <h1 class="flex justify-center text-3xl pb-28 font-bold">الاستشارات والخدمات الإدارية</h1>
+<div id="service2" dir="rtl" class="text-[#14274e] pt-40 pb-20 rounded-br-custom rounded-bl-custom">
+    <h1 class="flex justify-center text-3xl pb-5 font-bold">الاستشارات والخدمات الإدارية</h1>
+    <p class="flex justify-center text-lg">تتخصص شركتنا في تعزيز ربحية وقيمة الأعمال. ضمن إطار التميز الاستراتيجي، نتعاون مع فرق الإدارة العليا لتجاوز </p>
+    <P class="flex justify-center text-lg pb-14">المنافسين، وتجاوز الحدود، وتحقيق الأهداف، واكتساب الرؤى، وتنشيط الفرق.</P>
+
+    <h1 class="flex justify-center text-3xl text-[#4d869c] pb-5 font-bold">تشمل خدماتنا:</h1>
 
     <!--the cards-->
-    <div class="mr-20 font-bold grid grid-cols-1 gap-20">
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">الهيكل الإداري:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة: تصميم وتطوير هياكل إدارية فعالة تتناسب مع طبيعة وأهداف المنشأة.</p>
-                    <p>الفوائد: تحسين كفاءة العمل، زيادة التنسيق بين الأقسام، وتسهيل اتخاذ القرارات.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-white">لطلب الخدمة</span>
-                </a>
-            </div>
+    <div class="mr-24 lg:mr-64 font-bold">
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التخطيط والتنفيذ الاستراتيجي</h1>
         </div>
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">مصفوفة الصلاحيات:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة: إعداد مصفوفات الصلاحيات لتحديد الأدوار والمسؤوليات داخل المنشأة.</p>
-                    <p>الفوائد: زيادة الشفافية، تحسين الرقابة الداخلية، وضمان توزيع عادل وفعال للصلاحيات.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]"href='Connect.html'>
-                    <span class="text-white">لطلب الخدمة</span>
-                </a>
-            </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التطوير التنظيمي</h1>
         </div>
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">تقييم الأداء:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة: تطوير وتنفيذ أنظمة تقييم الأداء لقياس كفاءة وإنتاجية الموظفين.</p>
-                    <p>الفوائد: تحسين الأداء الوظيفي، زيادة التحفيز والرضا الوظيفي، وتحديد فرص التدريب والتطوير.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-white">لطلب الخدمة</span>
-                </a>
-            </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التحسين التشغيلي</h1>
         </div>
-        <div class="flex gap-7">
-            <div class="mt-4">
-                <img src="public/images/services/3.png" class="h-28">
-            </div>
-            <div class="flex flex-col justify-center gap-7">
-                <h1 class="sm:text-3xl lg:text-sm">الوصف الوظيفي:</h1>
-                <div class="flex flex-col justify-center gap-3 text-xl lg:text-sm">
-                    <p>وصف الخدمة: إعداد توصيفات وظيفية دقيقة ومفصلة لكل وظيفة داخل المنشأة.</p>
-                    <p>الفوائد: وضوح الأدوار والمسؤوليات، تحسين عملية التوظيف، وزيادة الرضا الوظيفي.</p>
-                </div>
-
-                <!--the button go to (Connect.html) -->
-                <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 hover:bg-[#457486FF]" href='Connect.html'>
-                    <span class="text-white">لطلب الخدمة</span>
-                </a>
-            </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة الأداء</h1>
         </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الاستشارات المالية</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>أبحاث السوق والتحليل</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تطوير القيادة</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>التحول الرقمي</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة المخاطر</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الاستدامة واستشارات المسؤولية الاجتماعية للشركات (CSR)</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>استشارات الاندماج والاستحواذ (M&A)</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة المشاريع</h1>
+        </div>
+
+        <!--the button go to (Connect.html) -->
+        <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect.html'>
+            <span class="text-white">لطلب خدمة</span>
+        </a>
+
+    </div>
+</div>
+
+<!--service 3-->
+<div id="service3" dir="rtl" class="text-[#14274e] pb-40 pt-20 rounded-br-custom rounded-bl-custom">
+    <h1 class="flex justify-center text-3xl pb-5 font-bold">الأمن السيبراني</h1>
+    <p class="flex justify-center text-lg">في الوقت الحالي، أصبحت التهديدات الأمنية أكثر تعقيدًا وتأثيرًا مقارنة بالسنوات السابقة. نبقى يقظين في مراقبة هذه</p>
+    <p class="flex justify-center text-lg">التهديدات المتطورة، ونعمل باستمرار على دمج التقنيات الجديدة والخبرات لضمان استعداد عملائنا والحفاظ على</p>
+    <P class="flex justify-center text-lg pb-14">قدرات دفاعية قوية في جميع الأوقات.</P>
+
+    <h1 class="flex justify-center text-3xl text-[#4d869c] pb-5 font-bold">تشمل خدماتنا:</h1>
+
+    <!--the cards-->
+    <div class="mr-24 lg:mr-64 font-bold">
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تقييم وتدقيق الأمن السيبراني</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>خدمات مركز عمليات الأمن (SOC)</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>خدمات الأمن المُدارة (MSS)</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الاستجابة للحوادث والتحقيقات الجنائية</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>استشارات ونصائح الأمن السيبراني</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>أمن الشبكات</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>أمن الأجهزة النهائية</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>إدارة الهوية والوصول (IAM)</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>أمن السحابة</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تدريب التوعية بالأمن</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>الدعم الامتثالي والتنظيمي</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>تقييم وإدارة مخاطر الأمن السيبراني</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>خدمات استخبارات التهديدات</h1>
+        </div>
+        <div class="flex items-center gap-2 mb-3">
+            <img src="public/images/services/3.png" class="h-10">
+            <h1>أمن البلوك تشين</h1>
+        </div>
+
+        <!--the button go to (Connect.html) -->
+        <a class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect.html'>
+            <span class="text-white">لطلب خدمة</span>
+        </a>
+
     </div>
 </div>
 
@@ -322,6 +418,7 @@
     <!--the right reserved-->
     <div class="w-full p-4 bg-[#457486] flex justify-center cursor-default text-white">
         <p>Copyright © 2024 - All right reserved by ASCO</p>
+    </div>
     </div>
 </div>
 
