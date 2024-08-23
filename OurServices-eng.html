@@ -1,0 +1,425 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>ASCO</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
+	<script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .nav_link{
+            position: relative;
+        }
+
+        .nav_link::after{
+            content: '';
+            height: 2px;
+            width: 100%;
+            background-color: #4d869c;
+            position: absolute;
+            left: 0px;
+            bottom: -3px;
+            opacity: 0;
+            pointer-events: none;
+
+            /*to make it smooth: */
+            transition: all 0.2s;
+        }
+
+        .nav_link:hover::after,
+        .nav_link:focus::after{
+            opacity: 100;
+        }
+		
+    </style>
+	
+    <style>
+        .rounded-bl-custom {
+            border-bottom-left-radius: 80% 20%;
+        }
+
+        .rounded-br-custom {
+            border-top-right-radius: 80% 20%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body dir="rtl" class=" text-[#404041]" style="font-family:Tajawal">
+
+<!--the navbar-->
+<div class="sticky top-0 z-50 bg-white">
+    <div class="h-full w-full">
+        
+<div class="bg-base-100 p-4 flex justify-between shadow-md z-50">
+
+    <!--translation button-->
+    <div class="flex items-center justify-center mx-3">
+
+        <!--the translation form-->
+        <form>
+            <button type="submit" class="flex gap-2 p-2 rounded-xl hover:bg-gray-200 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+                <span>AR</span>
+            </button>
+        </form>
+    </div>
+
+    <!--the pages button to switch between them with underline animation-->
+    <div class="nav flex items-center">
+        <ul class="nav_list flex justify-center gap-14 sm:w-[600px]">
+            <li class="nav_item flex"><a href="Connect-eng.html" class="nav_link cursor-pointer px-1 flex">Contact Us</a></li>
+            <li class="nav_item flex"><a href="OurServices-eng.html" class="nav_link cursor-pointer px-1 flex border-b-2 border-[#4d869c]">Our Services</a></li>
+            <li class="nav_item flex"><a href="WhoWeAre-eng.html" class="nav_link cursor-pointer px-1 flex">About Us</a></li>
+            <li class="nav_item flex"><a href="index-eng.html" class="nav_link cursor-pointer px-1 flex">Home</a></li>
+        </ul>
+    </div>
+
+    <!--the company logo-->
+    <div class="mx-3">
+        <!--the button go to (index.html) -->
+        <a href="#"><img src="public/images/logo/logo-ver1.png" class="w-28"></a>
+    </div>
+</div>
+
+    </div>
+</div>
+
+<div dir="ltr">
+    <!--first page contant-->
+    <div class="flex flex-col items-center text-white">
+        <div>
+            <h1 class="text-6xl font-bold text-[#14274e] mt-16 mb-10">Our Services</h1>
+        </div>
+
+        <!--the two cards-->
+        <div dir="rtl" class="grid grid-cols-2 md:gap-20 lg:gap-20">
+
+            <!--card 1-->
+            <div class="flex flex-col items-center" dir="ltr">
+                <img src="public/images/services/1.png" class="h-40">
+                <h1 class="my-4 text-2xl font-bold text-[#14274e]">Financial Consulting and Services</h1>
+                <a href="#service1" class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
+                    <span class="text-white">About the Services</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-2 pt-1 text-base-100">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+            </div>
+
+            <!--card 2-->
+            <div class="flex flex-col items-center" dir="ltr">
+                <img src="public/images/services/2.png" class="h-40">
+                <h1 class="my-4 text-2xl font-bold text-[#14274e]">Consulting and Administrative Services</h1>
+                <a href="#service2" class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
+                    <span class="text-base-100">About the Services</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-2 pt-1 text-base-100">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+        <!--card 3-->
+        <div class="flex flex-col items-center mb-52 mt-10" dir="ltr">
+            <img src="public/images/services/4.png" class="h-40">
+            <h1 class="my-4 text-2xl font-bold text-[#14274e]">Cybersecurity</h1>
+            <a href="#service3" class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 hover:bg-[#457486FF] cursor-pointer" type="button">
+                <span class="text-base-100">About the Services</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-2 pt-1 text-base-100">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!--service 1-->
+    <div id="service1" class="bg-[#14274e] text-white py-40 rounded-br-custom rounded-bl-custom">
+        <h1 class="flex justify-center text-3xl pb-5 font-bold px-40">Financial Consulting and Service</h1>
+        <p class="flex justify-center text-lg pb-14 px-40">At ASCO, we offer comprehensive accounting services, ensuring high-precision bookkeeping for your company, with the highest quality standards at competitive prices. </p>
+
+        <h1 class="flex justify-center text-3xl pb-5 font-bold">Our services include:</h1>
+
+        <!--the cards-->
+        <div class="ml-24 lg:ml-64 font-bold text-lg">
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Preparation of Financial Statements</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Conversion to International Financial Reporting Standards (IFRS)</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>IFRS for Small and Medium-Sized Enterprises (IFRS for SMEs)</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Authorized Internal Audits</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Systems and Compliance Audits</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Risk-Related Consulting</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Payroll Management</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Actuarial Valuations</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Disclosure Checklists</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>External Audit Management</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Data Entry Services</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Support for Xerox/QuickBooks Systems</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Bank Reconciliation Statements</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Opinions on Financial Statements according to IFRS and GAAP</h1>
+            </div>
+
+            <!--the button go to (Connect.html) -->
+            <a class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect-eng.html'>
+                <span class="text-white">To Request Service</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!--service 2-->
+    <div id="service2" dir="ltr" class="text-[#14274e] pt-40 pb-20 rounded-br-custom rounded-bl-custom">
+        <h1 class="flex justify-center text-3xl pb-5 font-bold">Consulting and Administrative Services</h1>
+        <p class="flex justify-center text-lg pb-14 px-40">Our company specializes in enhancing business profitability and value. Within the framework of strategic excellence, we collaborate with senior management teams to surpass competitors, break boundaries, achieve goals, gain insights, and invigorate teams. </p>
+
+        <h1 class="flex justify-center text-3xl text-[#4d869c] pb-5 font-bold">Our services include:</h1>
+
+        <!--the cards-->
+        <div class="ml-24 lg:ml-64 font-bold text-lg">
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Strategic Planning and Implementation</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Organizational Development</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Operational Improvement</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Performance Management</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Financial Consulting</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Market Research and Analysis</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Leadership Development</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Digital Transformation</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Risk Management</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Sustainability and Corporate Social Responsibility (CSR) Consulting</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Merger and Acquisition (M&A) Consulting</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Project Management</h1>
+            </div>
+
+            <!--the button go to (Connect.html) -->
+            <a class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect-eng.html'>
+                <span class="text-white">To Request Service</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!--service 3-->
+    <div id="service3" dir="ltr" class="text-[#14274e] pb-40 pt-20 rounded-br-custom rounded-bl-custom">
+        <h1 class="flex justify-center text-3xl pb-5 font-bold">Cybersecurity</h1>
+        <P class="flex justify-center text-lg pb-14 px-40">Today, security threats are more complex and impactful than in previous years. We remain vigilant in monitoring these evolving threats, constantly integrating new technologies and expertise to ensure our clients are prepared and maintain strong defensive capabilities at all times. </P>
+
+        <h1 class="flex justify-center text-3xl text-[#4d869c] pb-5 font-bold">Our services include</h1>
+
+        <!--the cards-->
+        <div class="ml-24 lg:ml-64 font-bold text-lg">
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Cybersecurity Assessment and Audits</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Security Operations Center (SOC) Services</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Managed Security Services (MSS)</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Incident Response and Forensic Investigations</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Cybersecurity Consulting and Advice</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Network Security</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Endpoint Security</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Identity and Access Management (IAM)</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Cloud Security</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Security Awareness Training</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Compliance and Regulatory Support</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Cybersecurity Risk Assessment and Management</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Threat Intelligence Services</h1>
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+                <img src="public/images/services/3.png" class="h-10">
+                <h1>Blockchain Security</h1>
+            </div>
+
+            <!--the button go to (Connect.html) -->
+            <a class="bg-[#4d869c] w-48 rounded-full flex justify-center p-2 mt-8 hover:bg-[#457486FF]" href='Connect-eng.html'>
+                <span class="text-white">To Request Service</span>
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="z-10">
+    <div class="bg-[#4d869c] text-base-100">
+
+    <!--the empty space in the top of the footer-->
+    <div class="h-28"></div>
+
+    <!--the black line-->
+    <div class="flex justify-center">
+        <div class="border-b border-black w-[800px]"></div>
+    </div>
+
+    <!--the footer content-->
+    <div class="p-4 gap-7 flex justify-between lg:px-20 py-8">
+
+        <!--the logo-->
+        <!--the button go to (index.html) -->
+        <a href="#" class="px-5">
+            <img src="public/images/logo/logo-ver2.png" class="w-28">
+        </a>
+
+        <!--the pages-->
+        <div class="flex items-center text-white">
+            <ul class="flex gap-12">
+                <li class="hover:cursor-pointer px-1"><a>Home</a></li>
+                <li class="hover:cursor-pointer px-1"><a>About Us</a></li>
+                <li class="hover:cursor-pointer px-1"><a>Our Services</a></li>
+                <li class="hover:cursor-pointer px-1"><a>Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!--the Social Media icons-->
+        <div class="flex items-center gap-6 justify-center px-5">
+            <!--linked in-->
+            <a href="#">
+                <svg class="cursor-pointer h-fit" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path></g></g>
+                </svg>
+            </a>
+
+            <!--X app-->
+            <a href="#">
+                <svg class="cursor-pointer h-fit" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M11,4c-3.866,0 -7,3.134 -7,7v28c0,3.866 3.134,7 7,7h28c3.866,0 7,-3.134 7,-7v-28c0,-3.866 -3.134,-7 -7,-7zM13.08594,13h7.9375l5.63672,8.00977l6.83984,-8.00977h2.5l-8.21094,9.61328l10.125,14.38672h-7.93555l-6.54102,-9.29297l-7.9375,9.29297h-2.5l9.30859,-10.89648zM16.91406,15l14.10742,20h3.06445l-14.10742,-20z"></path></g></g>
+                </svg>
+            </a>
+
+            <!--whatsapp-->
+            <a href="https://wa.me/9665556799404">
+                <svg class="cursor-pointer h-fit" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,3.96 1.023,7.854 2.963,11.29l-2.926,10.44c-0.096,0.343 -0.003,0.711 0.245,0.966c0.191,0.197 0.451,0.304 0.718,0.304c0.08,0 0.161,-0.01 0.24,-0.029l10.896,-2.699c3.327,1.786 7.074,2.728 10.864,2.728c12.682,0 23,-10.318 23,-23c0,-12.682 -10.318,-23 -23,-23zM36.57,33.116c-0.492,1.362 -2.852,2.605 -3.986,2.772c-1.018,0.149 -2.306,0.213 -3.72,-0.231c-0.857,-0.27 -1.957,-0.628 -3.366,-1.229c-5.923,-2.526 -9.791,-8.415 -10.087,-8.804c-0.295,-0.389 -2.411,-3.161 -2.411,-6.03c0,-2.869 1.525,-4.28 2.067,-4.864c0.542,-0.584 1.181,-0.73 1.575,-0.73c0.394,0 0.787,0.005 1.132,0.021c0.363,0.018 0.85,-0.137 1.329,1.001c0.492,1.168 1.673,4.037 1.819,4.33c0.148,0.292 0.246,0.633 0.05,1.022c-0.196,0.389 -0.294,0.632 -0.59,0.973c-0.296,0.341 -0.62,0.76 -0.886,1.022c-0.296,0.291 -0.603,0.606 -0.259,1.19c0.344,0.584 1.529,2.493 3.285,4.039c2.255,1.986 4.158,2.602 4.748,2.894c0.59,0.292 0.935,0.243 1.279,-0.146c0.344,-0.39 1.476,-1.703 1.869,-2.286c0.393,-0.583 0.787,-0.487 1.329,-0.292c0.542,0.194 3.445,1.604 4.035,1.896c0.59,0.292 0.984,0.438 1.132,0.681c0.148,0.242 0.148,1.41 -0.344,2.771z"></path></g></g>
+                </svg>
+            </a>
+        </div>
+
+    </div>
+
+    <!--the right reserved-->
+    <div class="w-full p-4 bg-[#457486] flex justify-center cursor-default text-white">
+        <p>Copyright © 2024 - All right reserved by ASCO</p>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

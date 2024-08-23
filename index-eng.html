@@ -11,6 +11,10 @@
 	<script src="https://cdn.tailwindcss.com"></script>
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         .nav_link{
             position: relative;
         }
@@ -53,7 +57,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
                 </svg>
-                <span>EN</span>
+                <span>AR</span>
             </button>
         </form>
 
@@ -62,10 +66,10 @@
     <!--the pages button to switch between them with underline animation-->
     <div class="nav flex items-center">
         <ul class="nav_list flex justify-center gap-14 sm:w-[600px]">
-            <li class="nav_item flex"><a href="Connect.html" class="nav_link cursor-pointer px-1 flex">تواصل معنا</a></li>
-            <li class="nav_item flex"><a href="OurServices.html" class="nav_link cursor-pointer px-1 flex">خدماتنا</a></li>
-            <li class="nav_item flex"><a href="WhoWeAre.html" class="nav_link cursor-pointer px-1 flex">من نحن</a></li>
-            <li class="nav_item flex"><a href="index.html" class="nav_link cursor-pointer px-1 flex border-b-2 border-[#4d869c]">الصفحة الرئيسية</a></li>
+            <li class="nav_item flex"><a href="Connect-eng.html" class="nav_link cursor-pointer px-1 flex">Contact Us</a></li>
+            <li class="nav_item flex"><a href="OurServices-eng.html" class="nav_link cursor-pointer px-1 flex">Our Services</a></li>
+            <li class="nav_item flex"><a href="WhoWeAre-eng.html" class="nav_link cursor-pointer px-1 flex">About Us</a></li>
+            <li class="nav_item flex"><a href="index-eng.html" class="nav_link cursor-pointer px-1 flex border-b-2 border-[#4d869c]">Home</a></li>
         </ul>
     </div>
 
@@ -80,15 +84,15 @@
 </div>
 
 <!--the hero-->
-<div class="flex flex-col p-16 md:mt-12 mt-16 mb-80 z-20">
-    <h1 class="text-4xl font-bold mb-6 text-[#14274e] z-20">اكتشفوا الحلول المتكاملة لإدارة  أعمالكم مع ASCO</h1>
-    <p class="w-[800px] sm:text-lg z-30">نجمع بين الخبرة العميقة في إدارة الأعمال والتخطيط المالي الدقيق لنقدم لكم الحلول التي تعزز نمو شركتكم واستدامتها. دعونا نساعدكم في الإدارة الفعالة للموارد والاستثمارات من خلال خدماتنا المتميزة.</p>
+<div class="flex flex-col p-16 md:mt-12 mt-16 mb-80 z-20" dir="ltr">
+    <h1 class="text-4xl font-bold mb-6 text-[#14274e] z-20">Discover Integrated Business Solutions with ASCO</h1>
+    <p class="w-[800px] sm:text-lg z-30">We combine deep expertise in business management and precise financial planning to offer solutions that enhance your company's growth and sustainability. Let us assist you in effectively managing resources and investments through our exceptional services.</p>
 
     <!--the button go to (WhoWeAre.html) -->
     <a href="WhoWeAre.html" class="bg-[#4d869c] w-40 rounded-full flex justify-center p-2 mt-6 hover:bg-[#457486FF] transition text-white  z-20">
-        <span class="text-white">لمعرفة المزيد</span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 pt-1 text-base-100">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        <span class="text-white">Learn More</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-2 pt-1 text-base-100">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
         </svg>
     </a>
 </div>
@@ -100,42 +104,42 @@
 
 <!--our services-->
 <div class="z-20 flex flex-col items-center pt-32 lg:pt-10">
-    <h1 class="z-20 text-4xl font-bold mb-16 text-[#14274e]">خدماتنا</h1>
+    <h1 class="z-20 text-4xl font-bold mb-16 text-[#14274e]">Our Services</h1>
 
     <!--the cards-->
     <div class="grid grid-cols-3 gap-16 mx-16">
 
         <!--card 1-->
-        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10">
+        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10" dir="ltr">
             <div class="pointer-events-none">
                 <div class="">
-                    <h2 class="mb-4 font-bold text-lg ">الاستشارات و الخدمات المالية</h2>
+                    <h2 class="mb-4 font-bold text-lg ">Financial Consulting and Services</h2>
                     <div class="w-full p-3 text-sm sm:text-md flex flex-col gap-5">
-                        <p>نقدم خدمات مالية متكاملة تشمل إعداد البيانات المالية، والتدقيق الداخلي، وإدارة المخاطر، والتقييمات المالية، والمزيد، بغاية تحقيق قيمة استثنائية والامتثال للمعايير التنظيمية.</p>
+                        <p>We offer comprehensive financial services, including financial statement preparation, internal auditing, risk management, financial valuations, and more, all aimed at achieving exceptional value and ensuring regulatory compliance.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!--card 2-->
-        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10">
+        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10" dir="ltr">
             <div class="pointer-events-none">
                 <div class="">
-                    <h2 class="font-bold text-lg mb-4">الأمن السبراني</h2>
+                    <h2 class="font-bold text-lg mb-4">Cybersecurity</h2>
                     <div class="w-full p-3 text-sm sm:text-md">
-                        <p>نحرص على حماية أصولك الرقمية بتقديم خدمات شاملة تشمل التقييمات الأمنية، وإدارة الحوادث، وأمن الشبكات، وإدارة الهويات، والتدريب على التوعية الأمنية، مع التركيز على التطورات الأمنية والامتثال للتشريعات الصارمة.</p>
+                        <p>We prioritize the protection of your digital assets by providing extensive services such as security assessments, incident management, network security, identity management, and security awareness training, with a strong focus on evolving security measures and strict regulatory compliance.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!--card 3-->
-        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10">
+        <div class="bg-[#14274e] text-white rounded-2xl hover:scale-110 hover:duration-150 transition p-8 z-10" dir="ltr">
             <div class="pointer-events-none">
                 <div class="">
-                    <h2 class="card-title font-bold text-lg mb-4">الاستشارات والخدمات الإدارية</h2>
+                    <h2 class="card-title font-bold text-lg mb-4">Consulting and Administrative Services</h2>
                     <div class="w-full p-3 text-sm sm:text-md flex flex-col gap-4">
-                        <p>نركز على تعزيز ربحية الأعمال والنمو الاستراتيجي من خلال تخطيط استراتيجي، وتحسين العمليات، وتطوير القيادات، والتحول الرقمي، وإدارة المخاطر، بالإضافة إلى الاستشارات الشاملة في إدارة المشاريع والمزيد.</p>
+                        <p>We focus on enhancing business profitability and strategic growth through strategic planning, process optimization, leadership development, digital transformation, risk management, and comprehensive project management consulting.</p>
                     </div>
                 </div>
             </div>
@@ -145,21 +149,21 @@
     </div>
 
     <!--the button go to (OurServices.html) -->
-    <a href="OurServices.html" class="w-40 rounded-full flex justify-center p-2 mt-14 bg-[#4d869c] hover:bg-[#457486FF] text-base-100 transition text-white">
-        <span>لمعرفة المزيد</span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 pt-1">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+    <a href="OurServices-eng.html" class="w-40 rounded-full flex justify-center p-2 mt-14 bg-[#4d869c] hover:bg-[#457486FF] text-base-100 transition text-white" dir="ltr">
+        <span class="text-white">Learn More</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-2 pt-1 text-base-100">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
         </svg>
     </a>
 </div>
 
 <!--our version-->
-<div>
+<div dir="ltr">
     <div class="max-h-screen px-28 py-32">
         <div class="grid grid-cols-3">
             <div class="flex flex-col justify-center col-span-2">
-                <h1 class="text-5xl font-bold text-[#14274e]">رؤيتنا</h1>
-                <p class="py-6 sm:text-xl">نسعى لأن نكون الشركة الرائدة والمفضلة في مجال الاستشارات المالية لغير الأوراق المالية والاستشارات الإدارية، من خلال تقديم حلول مبتكرة وفعالة تدعم عملاءنا في تحقيق أهدافهم الاستراتيجية وتحقيق النجاح المستدام.</p>
+                <h1 class="text-5xl font-bold text-[#14274e]">Our Vision</h1>
+                <p class="py-6 sm:text-xl">Our vision is to become the leading and preferred company in the field of non-securities financial consulting and management consulting by providing innovative and effective solutions that support our clients in achieving their strategic goals and sustainable success.</p>
             </div>
             <img src="public/images/home/3.gif" class="w-[430px] rounded-lg"/>
         </div>
@@ -167,69 +171,63 @@
 </div>
 
 <!--our goals-->
-<div class="bg-[#4d869c] flex flex-col items-center text-white pointer-events-none pt-10 pb-20">
-    <h1 class="text-4xl font-bold pt-10 mb-4">أهدافنا</h1>
-    <p class="mb-6">في شركتنا، نعمل جاهدين لتحقيق أهدافنا بكل تفانٍ وإخلاص  التي تشمل:</p>
+<div class="bg-[#4d869c] flex flex-col items-center text-white pointer-events-none pt-10 pb-20" dir="ltr">
+    <h1 class="text-4xl font-bold pt-10 mb-4">Our Goals</h1>
+    <p class="mb-6">At our company, we work diligently to achieve our goals with dedication and integrity, including:</p>
 
     <!--the cards-->
     <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-10 sm:text-md">
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img1.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="mb-3 lg:text-sm text-lg font-bold">1.تحقيق التميز في تقديم الخدمات:</h2>
+                <h2 class="mb-3 lg:text-sm text-lg font-bold">1. Excellence in Service Delivery:</h2>
                 <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
-                    <p>- تقديم استشارات مالية وإدارية عالية الجودة تتجاوز توقعات العملاء.</p>
-                    <p>- الالتزام بالمعايير المهنية وأفضل الممارسات في جميع الخدمات المقدمة.</p>
+                    <p>Providing high-quality financial and administrative consulting services that exceed client expectations while adhering to professional standards and best practices.</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img2.png" class="w-16 m-2 mb-3">
-            <div class="">
-                <h2 class="font-bold mb-3 lg:text-sm text-lg ">2.دعم العملاء في تحقيق أهدافهم:</h2>
+            <div class="mt-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">2. Client Success:</h2>
                 <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
-                    <p>- مساعدة العملاء في تطوير وتنفيذ استراتيجيات مالية وإدارية فعالة.</p>
-                    <p>- تقديم توصيات مخصصة تلبي احتياجات العملاء وتساعدهم في تحقيق أهدافهم التشغيلية والمالية.</p>
+                    <p>Assisting clients in developing and implementing effective financial and administrative strategies, offering customized recommendations that meet their needs and help them achieve operational and financial goals.</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img3.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 lg:text-sm text-lg ">3.تطوير فريق عمل متميز:</h2>
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">3. Developing a Distinguished Team:</h2>
                 <div class="w-52 lg:w-80 md:w-72  lg:text-xs text-md flex flex-col gap-2">
-                    <p>- مساعدة العملاء في تطوير وتنفيذ استراتيجيات مالية وإدارية فعالة.</p>
-                    <p>- تقديم توصيات مخصصة تلبي احتياجات العملاء وتساعدهم في تحقيق أهدافهم التشغيلية والمالية.</p>
+                    <p>Helping clients develop and execute effective financial and administrative strategies, delivering tailored recommendations that fulfill client needs and assist in achieving their operational and financial goals.</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img4.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 lg:text-sm text-lg ">4.تعزيز الابتكار والتحسين المستمر:</h2>
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">4. Innovation and Continuous Improvement:</h2>
                 <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
-                    <p>- تشجيع الابتكار في تقديم الحلول والخدمات للعملاء.</p>
-                    <p>- تبني منهجية التحسين المستمر لضمان تقديم أفضل الحلول والخدمات بشكل دائم.</p>
+                    <p>Encouraging innovation in delivering solutions and services to clients, adopting a continuous improvement approach to ensure the best solutions and services are consistently provided.</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img5.png" class="w-16 m-2 mb-3">
             <div class="">
-                <h2 class="font-bold mb-3 lg:text-sm text-lg ">5.بناء علاقات طويلة الأمد مع العملاء:</h2>
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">5. Building Long-Term Client Relationships:</h2>
                 <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
-                    <p>- التركيز على بناء علاقات متينة وطويلة الأمد مع العملاء قائمة على الثقة والاحترام المتبادل.</p>
-                    <p>- توفير دعم مستمر للعملاء لضمان تحقيق النجاح المستدام.</p>
+                    <p>Focusing on establishing strong, long-lasting relationships with clients based on trust and mutual respect, providing continuous support to ensure sustainable success.</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col items-center">
             <img src="public/images/home/our goals/img6.png" class="w-16 m-2 mb-3">
-            <div class="">
-                <h2 class="font-bold mb-3 lg:text-sm text-lg ">6.الاستدامة والمسؤولية الاجتماعية:</h2>
+            <div class="mt-2">
+                <h2 class="font-bold mb-3 lg:text-sm text-lg ">6. Sustainability and Social Responsibility:</h2>
                 <div class="w-52 lg:w-80 md:w-72 lg:text-xs text-md flex flex-col gap-2">
-                    <p>- الالتزام بمبادئ الاستدامة والمسؤولية الاجتماعية في جميع جوانب العمل.</p>
-                    <p>- المساهمة في تطوير المجتمع ودعم المبادرات التي تساهم في تحقيق التنمية المستدامة.</p>
+                    <p>Committing to sustainability and social responsibility principles in all aspects of business, contributing to community development, and supporting initiatives that promote sustainable development.</p>
                 </div>
             </div>
         </div>
@@ -237,36 +235,36 @@
 </div>
 
 <!--connect with us form-->
-<div class="py-20 mb-10 flex flex-col items-center">
+<div class="py-20 mb-10 flex flex-col items-center" dir="ltr">
     <div class="md:w-[500px] lg:w-[500px]">
-        <h1 class="text-4xl font-bold mb-4 text-[#14274e]">تواصل معنا</h1>
-        <p class="text-gray-500">نحن هنا لمساعدتك! إذا كان لديك أي استفسار أو تحتاج إلى مساعدة، يرجى ملء النموذج أدناه وسنتواصل معك في أقرب وقت </p>
+        <h1 class="text-4xl font-bold mb-4 text-[#14274e]">Contact Us</h1>
+        <p class="text-gray-500">We're here to help! If you have any inquiries or need assistance, please fill out the form below, and we will get in touch with you as soon as possible.</p>
 
         <!--(Connect With Us) form-->
         <form class="mt-7">
             <div class="grid grid-cols-2 gap-5">
                 <div class="flex flex-col">
-                    <label for="firstName">الاسم الاول:</label>
+                    <label for="firstName">First name:</label>
                     <input name="firstName" id="firstName" type="text" class="border border-black rounded-md p-0.5 mt-1">
                 </div>
                 <div class="flex flex-col">
-                    <label for="lastName">الاسم الثاني:</label>
+                    <label for="lastName">Last name:</label>
                     <input name="lastName" id="lastName" type="text" class="border border-black rounded-md p-0.5 mt-1">
                 </div>
             </div>
             <div class="border-t border-black mt-5"></div>
             <div class="flex flex-col mt-3">
-                <label for="email">الايميل:</label>
+                <label for="email">Email:</label>
                 <input name="email" id="email" type="email" class="border border-black rounded-md p-0.5 mt-1">
             </div>
             <div class="flex flex-col mt-3">
-                <label for="message">كيف يمكننا مساعدتك؟</label>
+                <label for="message">How can we help you?</label>
                 <textarea name="message" id="message" rows="4" cols="50" type="text" class="border border-black rounded-md p-0.5 mt-1"></textarea>
             </div>
 
             <!--send the message button-->
             <button type="submit" class="w-full bg-[#4d869c] rounded-lg p-2 mt-6 hover:bg-[#457486] text-white transition">
-                <span>إرسال</span>
+                <span>Send</span>
             </button>
         </form>
     </div>
@@ -296,10 +294,10 @@
         <!--the pages-->
         <div class="flex items-center text-white">
             <ul class="flex gap-12">
-                <li class="hover:cursor-pointer px-1"><a>الصفحة الرئيسية</a></li>
-                <li class="hover:cursor-pointer px-1"><a>من نحن</a></li>
-                <li class="hover:cursor-pointer px-1"><a>خدماتنا</a></li>
-                <li class="hover:cursor-pointer px-1"><a>تواصل معنا</a></li>
+                <li class="hover:cursor-pointer px-1"><a>Home</a></li>
+                <li class="hover:cursor-pointer px-1"><a>About Us</a></li>
+                <li class="hover:cursor-pointer px-1"><a>Our Services</a></li>
+                <li class="hover:cursor-pointer px-1"><a>Contact Us</a></li>
             </ul>
         </div>
 
